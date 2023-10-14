@@ -1,0 +1,32 @@
+@startuml
+
+while (Avijjā?)              is (āma)
+if    (Viññāṇa?)             then (āma)
+
+repeat
+    :Saṅkhāra;
+    :Nāmarūpa;
+repeat while (aniṭṭhita) is (āma)
+:Saḷāyatana;
+
+
+if    (Phassa)               then (āma)
+if    (Vedanā)               then (āma)
+if    (Taṇhā)                then (āma)
+if    (Upādāna)              then (āma)
+
+:Bhava;
+:Jāti;
+:Jarāmaraṇa;
+:Dukkha;
+    
+endif
+endif
+endif
+endif
+endif
+endwhile
+
+stop
+    
+@enduml
