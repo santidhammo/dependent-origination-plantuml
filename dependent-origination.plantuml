@@ -9,22 +9,26 @@ repeat
 repeat while (aniṭṭhita) is (na)
 :Saḷāyatana;
 
+if    (Phassa?)              then (āma)
+if    (Vedanā?)              then (āma)
+if    (Taṇhā?)               then (āma)
+if    (Bhava?)               then (āma)
+if    (Jāti?)                then (āma)
+if    (Bhava?)               then (āma)
+if    (Jarāmaraṇa?)          then (āma)
 
-if    (Phassa)               then (āma)
-if    (Vedanā)               then (āma)
-if    (Taṇhā)                then (āma)
-if    (Upādāna)              then (āma)
-
-:Bhava;
-:Jāti;
-:Jarāmaraṇa;
 :Dukkha;
-    
+stop
+
 endif
 endif
 endif
 endif
 endif
+endif
+endif
+endif
+
 endwhile
 
 stop
