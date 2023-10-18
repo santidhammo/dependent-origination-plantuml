@@ -1,25 +1,21 @@
 @startuml
 
+
+
 while (Avijjā?)              is (āma)
 if    (Viññāṇa?)             then (āma)
-
-repeat
-    :Saṅkhāra;
-    :Nāmarūpa;
-repeat while (aniṭṭhita) is (na)
-:Saḷāyatana;
-
+if    (Saṅkhāra?)            then (āma)
+if    (Nāmarūpa?)            then (āma)
+if    (Saḷāyatana)           then (āma)
 if    (Phassa?)              then (āma)
 if    (Vedanā?)              then (āma)
 if    (Taṇhā?)               then (āma)
 if    (Bhava?)               then (āma)
 if    (Jāti?)                then (āma)
 if    (Bhava?)               then (āma)
-if    (Jarāmaraṇa?)
-
+if    (Jarāmaraṇa?)          then (āma)
 :Dukkha;
-stop
-
+detach
 endif
 endif
 endif
@@ -28,9 +24,11 @@ endif
 endif
 endif
 endif
-
+endif
+endif
+endif
 endwhile
-
 stop
-    
+
+
 @enduml
